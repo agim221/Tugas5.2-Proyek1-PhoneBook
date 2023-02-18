@@ -117,7 +117,7 @@ def updateKontak():
     file = open("phoneBook.txt", "r")
     data = file.readlines()
     file.close()
-    nama = input("Masukan Nama Orang yang Ingin Nomornya diubah : ")
+    nama = input("Masukan Nama Kontak yang Ingin Nomornya diubah : ")
     index = -1
     for i in range(len(data)):
         temp = data[i].split(" ")
