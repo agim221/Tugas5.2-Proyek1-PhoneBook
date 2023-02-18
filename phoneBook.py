@@ -133,6 +133,8 @@ def updateKontak():
         for i in range(len(data)):
             file.write(data[i])
         file.close()
+    else:
+        print("Data yang dicari tidak ada")
     tampilkanMenu()
         
 #main
